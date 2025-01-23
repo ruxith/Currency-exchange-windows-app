@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dataGridViewCursulZilei.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 43</value>
+  </data>
+  <data name="dataGridViewCursulZilei.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 205</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewCursulZilei.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCursulZilei.Name" xml:space="preserve">
+    <value>dataGridViewCursulZilei</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCursulZilei.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCursulZilei.Parent" xml:space="preserve">
+    <value>tabPageCursValutar</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCursulZilei.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 251</value>
+  </data>
+  <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 19</value>
+  </data>
+  <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialLabel1.Text" xml:space="preserve">
+    <value>Sursă: Banca Națională a României</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Name" xml:space="preserve">
+    <value>materialLabel1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Parent" xml:space="preserve">
+    <value>tabPageCursValutar</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="LabelData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 21</value>
+  </data>
+  <data name="LabelData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 19</value>
+  </data>
+  <data name="LabelData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabelData.Text" xml:space="preserve">
+    <value>Datadeazi</value>
+  </data>
+  <data name="&gt;&gt;LabelData.Name" xml:space="preserve">
+    <value>LabelData</value>
+  </data>
+  <data name="&gt;&gt;LabelData.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;LabelData.Parent" xml:space="preserve">
+    <value>tabPageCursValutar</value>
+  </data>
+  <data name="&gt;&gt;LabelData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageCursValutar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageCursValutar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 296</value>
+  </data>
+  <data name="tabPageCursValutar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageCursValutar.Text" xml:space="preserve">
+    <value>Cursuri valutare</value>
+  </data>
+  <data name="&gt;&gt;tabPageCursValutar.Name" xml:space="preserve">
+    <value>tabPageCursValutar</value>
+  </data>
+  <data name="&gt;&gt;tabPageCursValutar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageCursValutar.Parent" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPageCursValutar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ComboBoxSuma.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="ComboBoxSuma.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ComboBoxSuma.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="ComboBoxSuma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 91</value>
+  </data>
+  <data name="ComboBoxSuma.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ComboBoxSuma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 49</value>
+  </data>
+  <data name="ComboBoxSuma.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxSuma.Name" xml:space="preserve">
+    <value>ComboBoxSuma</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxSuma.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxSuma.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxSuma.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonSuma.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ButtonSuma.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonSuma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 149</value>
+  </data>
+  <data name="ButtonSuma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="ButtonSuma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 36</value>
+  </data>
+  <data name="ButtonSuma.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ButtonSuma.Text" xml:space="preserve">
+    <value>Efectuare</value>
+  </data>
+  <data name="&gt;&gt;ButtonSuma.Name" xml:space="preserve">
+    <value>ButtonSuma</value>
+  </data>
+  <data name="&gt;&gt;ButtonSuma.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ButtonSuma.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;ButtonSuma.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonTranzactieEf.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ButtonTranzactieEf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 251</value>
+  </data>
+  <data name="ButtonTranzactieEf.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="ButtonTranzactieEf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 36</value>
+  </data>
+  <data name="ButtonTranzactieEf.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ButtonTranzactieEf.Text" xml:space="preserve">
+    <value>Efectuare tranzactie</value>
+  </data>
+  <data name="&gt;&gt;ButtonTranzactieEf.Name" xml:space="preserve">
+    <value>ButtonTranzactieEf</value>
+  </data>
+  <data name="&gt;&gt;ButtonTranzactieEf.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ButtonTranzactieEf.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;ButtonTranzactieEf.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TextBoxPrimesc.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="TextBoxPrimesc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="TextBoxPrimesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 194</value>
+  </data>
+  <data name="TextBoxPrimesc.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TextBoxPrimesc.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TextBoxPrimesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 48</value>
+  </data>
+  <data name="TextBoxPrimesc.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPrimesc.Name" xml:space="preserve">
+    <value>TextBoxPrimesc</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPrimesc.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialMaskedTextBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPrimesc.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPrimesc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SwitchCumpar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SwitchCumpar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="SwitchCumpar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="SwitchCumpar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 37</value>
+  </data>
+  <data name="SwitchCumpar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="SwitchCumpar.Text" xml:space="preserve">
+    <value>Cumpăr</value>
+  </data>
+  <data name="&gt;&gt;SwitchCumpar.Name" xml:space="preserve">
+    <value>SwitchCumpar</value>
+  </data>
+  <data name="&gt;&gt;SwitchCumpar.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialSwitch, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SwitchCumpar.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;SwitchCumpar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TextBoxSuma.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="TextBoxSuma.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
+  </data>
+  <data name="TextBoxSuma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 92</value>
+  </data>
+  <data name="TextBoxSuma.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TextBoxSuma.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="TextBoxSuma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 48</value>
+  </data>
+  <data name="TextBoxSuma.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSuma.Name" xml:space="preserve">
+    <value>TextBoxSuma</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSuma.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialMaskedTextBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSuma.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSuma.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ComboBoxPrimesc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="ComboBoxPrimesc.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ComboBoxPrimesc.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="ComboBoxPrimesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 194</value>
+  </data>
+  <data name="ComboBoxPrimesc.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ComboBoxPrimesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 49</value>
+  </data>
+  <data name="ComboBoxPrimesc.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxPrimesc.Name" xml:space="preserve">
+    <value>ComboBoxPrimesc</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxPrimesc.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxPrimesc.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxPrimesc.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="materialLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 70</value>
+  </data>
+  <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 19</value>
+  </data>
+  <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialLabel4.Text" xml:space="preserve">
+    <value>Suma:</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
+    <value>materialLabel4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 162</value>
+  </data>
+  <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialLabel3.Text" xml:space="preserve">
+    <value>Primesc:</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tabPageConvertor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageConvertor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageConvertor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 296</value>
+  </data>
+  <data name="tabPageConvertor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageConvertor.Text" xml:space="preserve">
+    <value>Convertor valutar</value>
+  </data>
+  <data name="&gt;&gt;tabPageConvertor.Name" xml:space="preserve">
+    <value>tabPageConvertor</value>
+  </data>
+  <data name="&gt;&gt;tabPageConvertor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageConvertor.Parent" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPageConvertor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 19</value>
+  </data>
+  <data name="materialLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialLabel5.Text" xml:space="preserve">
+    <value>Data:</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Name" xml:space="preserve">
+    <value>materialLabel5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Parent" xml:space="preserve">
+    <value>TabPageTranzactii</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dateTimePickerTranzactii.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="dateTimePickerTranzactii.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 20</value>
+  </data>
+  <data name="dateTimePickerTranzactii.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerTranzactii.Name" xml:space="preserve">
+    <value>dateTimePickerTranzactii</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerTranzactii.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerTranzactii.Parent" xml:space="preserve">
+    <value>TabPageTranzactii</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerTranzactii.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonCautare.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ButtonCautare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 17</value>
+  </data>
+  <data name="ButtonCautare.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="ButtonCautare.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 36</value>
+  </data>
+  <data name="ButtonCautare.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButtonCautare.Text" xml:space="preserve">
+    <value>Cautare</value>
+  </data>
+  <data name="&gt;&gt;ButtonCautare.Name" xml:space="preserve">
+    <value>ButtonCautare</value>
+  </data>
+  <data name="&gt;&gt;ButtonCautare.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ButtonCautare.Parent" xml:space="preserve">
+    <value>TabPageTranzactii</value>
+  </data>
+  <data name="&gt;&gt;ButtonCautare.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dataGridViewTranzactii.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 62</value>
+  </data>
+  <data name="dataGridViewTranzactii.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dataGridViewTranzactii.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 180</value>
+  </data>
+  <data name="dataGridViewTranzactii.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTranzactii.Name" xml:space="preserve">
+    <value>dataGridViewTranzactii</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTranzactii.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTranzactii.Parent" xml:space="preserve">
+    <value>TabPageTranzactii</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTranzactii.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TabPageTranzactii.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPageTranzactii.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPageTranzactii.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 296</value>
+  </data>
+  <data name="TabPageTranzactii.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TabPageTranzactii.Text" xml:space="preserve">
+    <value>Istoric tranzactii</value>
+  </data>
+  <data name="&gt;&gt;TabPageTranzactii.Name" xml:space="preserve">
+    <value>TabPageTranzactii</value>
+  </data>
+  <data name="&gt;&gt;TabPageTranzactii.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPageTranzactii.Parent" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;TabPageTranzactii.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonAfiseaza.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ButtonAfiseaza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 38</value>
+  </data>
+  <data name="ButtonAfiseaza.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="ButtonAfiseaza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 36</value>
+  </data>
+  <data name="ButtonAfiseaza.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonAfiseaza.Text" xml:space="preserve">
+    <value>Afiseaza</value>
+  </data>
+  <data name="&gt;&gt;ButtonAfiseaza.Name" xml:space="preserve">
+    <value>ButtonAfiseaza</value>
+  </data>
+  <data name="&gt;&gt;ButtonAfiseaza.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ButtonAfiseaza.Parent" xml:space="preserve">
+    <value>tabPageistoric</value>
+  </data>
+  <data name="&gt;&gt;ButtonAfiseaza.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dateTimePickerCurs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 9</value>
+  </data>
+  <data name="dateTimePickerCurs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 20</value>
+  </data>
+  <data name="dateTimePickerCurs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerCurs.Name" xml:space="preserve">
+    <value>dateTimePickerCurs</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerCurs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerCurs.Parent" xml:space="preserve">
+    <value>tabPageistoric</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerCurs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 9</value>
+  </data>
+  <data name="materialLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 19</value>
+  </data>
+  <data name="materialLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialLabel6.Text" xml:space="preserve">
+    <value>Cursul valutar in ziua:</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Name" xml:space="preserve">
+    <value>materialLabel6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Parent" xml:space="preserve">
+    <value>tabPageistoric</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dataGridViewCursuri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 83</value>
+  </data>
+  <data name="dataGridViewCursuri.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dataGridViewCursuri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 198</value>
+  </data>
+  <data name="dataGridViewCursuri.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCursuri.Name" xml:space="preserve">
+    <value>dataGridViewCursuri</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCursuri.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCursuri.Parent" xml:space="preserve">
+    <value>tabPageistoric</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCursuri.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPageistoric.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageistoric.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 296</value>
+  </data>
+  <data name="tabPageistoric.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPageistoric.Text" xml:space="preserve">
+    <value>Istoric cursuri</value>
+  </data>
+  <data name="&gt;&gt;tabPageistoric.Name" xml:space="preserve">
+    <value>tabPageistoric</value>
+  </data>
+  <data name="&gt;&gt;tabPageistoric.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageistoric.Parent" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPageistoric.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonAdaugaValuta.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ButtonAdaugaValuta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 254</value>
+  </data>
+  <data name="ButtonAdaugaValuta.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="ButtonAdaugaValuta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 36</value>
+  </data>
+  <data name="ButtonAdaugaValuta.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButtonAdaugaValuta.Text" xml:space="preserve">
+    <value>Adauga </value>
+  </data>
+  <data name="&gt;&gt;ButtonAdaugaValuta.Name" xml:space="preserve">
+    <value>ButtonAdaugaValuta</value>
+  </data>
+  <data name="&gt;&gt;ButtonAdaugaValuta.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ButtonAdaugaValuta.Parent" xml:space="preserve">
+    <value>tabValute</value>
+  </data>
+  <data name="&gt;&gt;ButtonAdaugaValuta.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridViewValute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 22</value>
+  </data>
+  <data name="dataGridViewValute.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dataGridViewValute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 223</value>
+  </data>
+  <data name="dataGridViewValute.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewValute.Name" xml:space="preserve">
+    <value>dataGridViewValute</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewValute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewValute.Parent" xml:space="preserve">
+    <value>tabValute</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewValute.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabValute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabValute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 296</value>
+  </data>
+  <data name="tabValute.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabValute.Text" xml:space="preserve">
+    <value>Valute</value>
+  </data>
+  <data name="&gt;&gt;tabValute.Name" xml:space="preserve">
+    <value>tabValute</value>
+  </data>
+  <data name="&gt;&gt;tabValute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabValute.Parent" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabValute.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialTabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="materialTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 64</value>
+  </data>
+  <data name="materialTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 322</value>
+  </data>
+  <data name="materialTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl1.Name" xml:space="preserve">
+    <value>materialTabControl1</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>578, 389</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Casa de curs valutar</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormPrincipal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
